@@ -1,0 +1,107 @@
+@import 'variable.scss';
+@import 'font.scss';
+@import 'mixin.scss';
+
+#payment{
+    padding-top:100px;
+    padding-bottom:90px !important;
+    .payment-head{
+        h4{
+            @include openreg;
+            font-size:16px;
+            color:$dark;
+            span{
+                @include openreg;
+                font-size:16px;
+                color:$dark; 
+            }
+        }
+    }
+    .payment-details{
+        margin-top:25px;
+        form{
+            input{
+                width: 135%;
+                outline:none;
+                @include openreg;
+                font-size:14px;
+                color:#444444;
+                border:1px solid #69686c;
+            }
+            textarea{
+                width: 135%;
+                outline:none;
+                @include openreg;
+                font-size:14px;
+                color:#444444;
+                border:1px solid #69686c;
+                height:150px;
+                resize:none;
+            }
+        }
+    }
+    .paybill{
+        margin-top: 22px;
+        .pay-item{
+            border-top:1px solid #69686c;
+            border-left:1px solid #69686c;
+            border-bottom:1px solid #69686c;
+            h4{
+                padding:15px 7px;
+                @include openreg;
+                font-size:20px;
+                color:$dark;
+            }
+            p{
+                padding:22px 11px;
+                @include ralemed;
+                font-size:16px;
+                color:#444444;
+                span{
+                    margin-left:30px;
+                }
+            }
+        }
+        h5{
+            @include ralemed;
+            font-size:20px;
+            color:$dark; 
+            border-top:1px solid #69686c;
+            border-bottom:1px solid #69686c;
+            margin-top:30px;
+            padding:15px 7px;
+            margin-bottom:12px !important;
+        }
+        .form-check{
+            label{
+                @include ralemed;
+                color:$dark; 
+                margin-bottom:12px !important;
+            }
+        }
+        p{
+            @include ralemed;
+            font-size:16px;
+            color:#444444;
+            line-height:22px;
+            margin-bottom:12px !important;
+        }
+        a{
+            background:$brand;
+            @include ralemed;
+            color:$dark; 
+            padding:15px;
+            color:#fff;
+            margin-top:12px;
+            @include trans (0.4s);
+            &:hover{
+                background:#f1f1f1;
+                color:#444444;
+            }
+        }
+
+    }
+}
+/*======================
+payment css ends
+========================*/ 

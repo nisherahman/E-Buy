@@ -1,0 +1,1596 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /* header part satrts */
+    header ul li {
+        padding: 0 3px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right:-10px;
+    }
+    /* navbar part ends */
+
+    /* banner part satrts */
+    #banner .bg1{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .bg2{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .bg3{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .banner-item .banner-text h5 {
+        font-size: 55px;
+    }
+    #banner .banner-item .banner-text h4 {
+        font-size: 26px;
+    }
+    #banner .banner-item .banner-text p {
+        margin-top: 12px;
+    }
+    #banner .banner-item .banner-text a {
+        margin-top: 40px;
+    }
+    #banner .prev-arrow {
+        bottom: 22px;
+        left: 49%;
+    }
+    #banner .next-arrow {
+        bottom: 22px;
+        right: 35%;
+    }
+    /* banner part ends */
+
+    /* feedback part starts  */
+    #feedback .feedback-text i {
+        font-size: 26px;
+    }
+    #feedback .feedback-text span {
+        font-size: 20px;
+    }
+    #feedback .feedback-text p {
+        margin-top: 11px;
+        padding-right: 34px;
+    }
+    /* feedback part ends */
+
+    /* about part starts */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px !important;
+    }
+    #about .about-img{
+        padding-bottom:20px !important;
+    }
+    #about .about-img .img-overlay{
+        bottom: 5px;
+    }
+    #about .about-img .img-overlay h4{
+        font-size: 28px;
+    }
+    #about .about-img .img-overlay h5{
+        font-size: 20px;
+    }
+    #about .about-img .img-overlay h6 {
+        background: #fff;
+        padding: 7px 57px;
+        top: -210px;
+        left: -72px;
+    }
+    #about .about-img .img-overlay a{
+        font-size: 15px; 
+    }
+    /* about part ends */
+
+    /* product part starts */
+    #product h4{
+        font-size: 28px;
+    }
+    #product h4::before,
+    #product h4::after
+    {
+        display:none;
+    }
+    #product ul {
+        padding-bottom: 30px !important;
+    }
+    #product ul li a {
+        font-size: 14px;
+    }
+    #product ul li a span {
+        margin-right: 32px;
+    }
+    #product h4{
+        margin-bottom: 40px !important;
+    }
+    #product .product-item img{
+        margin-left:15px;
+    }
+    #product h6{
+        margin-left: 15px;
+    }
+    #product h6 span {
+        margin-left: 70px;
+    }
+    #product .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+    }
+    /* product part ends */
+
+    /* microsoft part starts */
+    #microsoft {
+        margin-top: 40px;
+        padding-bottom: 50px !important;
+    }
+    #microsoft .microsoft-img img{
+        width:100%;
+    }
+    #microsoft .microsoft-text {
+        margin-top: 155px;
+        margin-left: 4px;
+    }
+    #microsoft .microsoft-text h4 {
+        font-size: 19px;
+    }
+    #microsoft .microsoft-text h2 {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    #microsoft .microsoft-text h5 {
+        font-size: 18px;
+    }
+    #microsoft .timer-text {
+        padding: 8px;
+        margin-top: 20px;
+        margin-left: 9px !important;
+    }
+    /*  microsoft part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 50px !important;
+    }
+    #latestProduct h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        display:none;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+    }
+    #latestProduct h6{
+        margin-left:15px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+    }
+    /* latest product part ends */
+
+    /* testimonial part starts */
+    #testimonial h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial h4::before,
+    #testimonial h4::after
+    {
+        display:none;
+    }
+    #test {
+        padding-top: 45px;
+        padding-bottom: 59px !important;
+    }
+    #test .testimonial-item .testimonial-image img{
+        width:40% !important;
+    }
+    #test .testimonial-item h5 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #test .testimonial-item h6 {
+        font-size: 14px;
+    }
+    #test .testimonial-item p {
+        line-height: 23px;
+    }
+    #test .prev-arrow{
+        left: 52% !important;
+    }
+    #test .next-arrow{
+        right: 32% !important;
+    }
+    /* testimonial part ends */
+
+    /* blog part starts  */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px !important;
+    }
+    #blog h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #blog h4::before,
+    #blog h4::after
+    {
+       display: none;
+    }
+    #blog h5 {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+    #blog h6 {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    /* blog part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -6px;
+        margin-right: 55px;
+    }
+    /* footer part ends */
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*========================
+ small device css starts
+=========================*/
+@media (min-width:576px) and (max-width:767px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 3px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+     .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -25px;
+    }
+    /* navbar part ends */
+
+    /* banner part satrts */
+    #banner .bg1{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .bg2{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .bg3{
+        padding-top: 115px;
+        padding-bottom: 115px !important;
+    }
+    #banner .banner-item .banner-text h5 {
+        font-size: 55px;
+    }
+    #banner .banner-item .banner-text h4 {
+        font-size: 26px;
+    }
+    #banner .banner-item .banner-text p {
+        margin-top: 12px;
+    }
+    #banner .banner-item .banner-text a {
+        margin-top: 40px;
+    }
+    #banner .prev-arrow {
+        bottom: 22px;
+        left: 51%;
+    }
+    #banner .next-arrow {
+        bottom: 22px;
+        right: 40%;
+    }
+    /* banner part ends */
+
+    /* feedback part starts  */
+    #feedback .feedback-text i {
+        font-size: 28px;
+    }
+    #feedback .feedback-text span {
+        font-size: 21px;
+    }
+    #feedback .feedback-text p {
+        margin-top: 11px;
+        padding-right: 34px;
+        padding-bottom: 15px !important;
+    }
+    /* feedback part ends */
+
+    /* about part starts */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px !important;
+    }
+    #about .about-img {
+        padding-bottom: 25px !important;
+    }
+    #about .about-img .img-overlay{
+        bottom: 5px;
+    }
+    #about .about-img .img-overlay h4{
+        font-size: 28px;
+    }
+    #about .about-img .img-overlay h5{
+        font-size: 20px;
+    }
+    #about .about-img .img-overlay h6 {
+        background: #fff;
+        padding: 6px 55px;
+        top: -174px;
+        left: -61px;
+    }
+    #about .about-img .img-overlay a{
+        font-size: 15px; 
+    }
+    /* about part ends */
+
+    /* product part starts */
+    #product h4 {
+        margin-bottom: 35px !important;
+    }
+    #product h4{
+        font-size: 28px;
+    }
+    #product h4::before,
+    #product h4::after
+    {
+        display:none;
+    }
+    #product ul {
+        padding-bottom: 25px !important;
+    }
+    #product ul li a {
+        font-size: 14px;
+    }
+    #product ul li a span {
+        margin-right: 8px;
+    }
+    #product h6 {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+    #product h6 span {
+        font-size: 14px;
+    }
+    #product h4{
+        margin-bottom: 40px !important;
+    }
+    #product .product-item img {
+        margin-left: 15px;
+        width: 100%;
+    }
+    #product .product-item .product-overlay{
+        height: 304px;
+    }
+    #product .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 15px;
+    }
+    /* product part ends */
+
+    /* microsoft part starts */
+    #microsoft {
+        margin-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    #microsoft .microsoft-img img{
+        width:100%;
+    }
+    #microsoft .microsoft-text {
+        margin-top: 280px;
+        margin-left: 4px;
+    }
+    #microsoft .microsoft-text h4 {
+        font-size: 19px;
+    }
+    #microsoft .microsoft-text h2 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #microsoft .microsoft-text h5 {
+        font-size: 19px;
+    }
+    #microsoft .timer-text {
+        padding: 12px;
+        margin-top: 20px;
+        margin-left: 5px !important;
+    }
+    /*  microsoft part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        display:none;
+    }
+    #latestProduct .product-item img {
+        margin-left: 15px;
+        width: 100%;
+    }
+    #latestProduct h6 {
+        margin-left:15px;
+        font-size: 12px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 13px;
+    }
+    /* latest product part ends */
+
+    /* testimonial part starts */
+    #testimonial h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial h4::before,
+    #testimonial h4::after
+    {
+        display:none;
+    }
+    #test {
+        padding-top: 55px;
+        padding-bottom: 80px !important;
+    }
+    #test .testimonial-item .testimonial-image img {
+        width: 70% !important;
+    }
+    #test .testimonial-item h5 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #test .testimonial-item h6 {
+        font-size: 14px;
+    }
+    #test .testimonial-item p {
+        line-height: 23px;
+        padding-bottom: 10px !important;
+    }
+    #test .prev-arrow{
+        left: 52% !important;
+    }
+    #test .next-arrow {
+        right: 39% !important;
+    }
+    /* testimonial part ends */
+
+    /* blog part starts  */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px !important;
+    }
+    #blog h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #blog h4::before,
+    #blog h4::after
+    {
+       display: none;
+    }
+    #blog h5 {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+    #blog h6 {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    /* blog part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -6px;
+        margin-right: 6px;
+    }
+    /* footer part ends */
+}   
+/*========================
+ small device css ends
+=========================*/
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 3px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+
+    /* banner part satrts */
+    #banner .bg1{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .bg2{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .bg3{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .banner-item .banner-text h5 {
+        font-size: 60px;
+    }
+    #banner .banner-item .banner-text h4 {
+        font-size: 35px;
+    }
+    #banner .banner-item .banner-text p {
+        margin-top: 12px;
+    }
+    #banner .banner-item .banner-text a {
+        margin-top: 40px;
+    }
+    #banner .prev-arrow {
+        bottom: 22px;
+        left: 51%;
+    }
+    #banner .next-arrow {
+        bottom: 22px;
+        right: 44%;
+    }
+    /* banner part ends */
+
+    /* feedback part starts  */
+    #feedback .feedback-text i {
+        font-size: 30px;
+    }
+    #feedback .feedback-text span {
+        font-size: 23px;
+    }
+    #feedback .feedback-text p {
+        margin-top: 11px;
+        padding-right: 34px;
+        padding-bottom: 15px !important;
+    }
+    /* feedback part ends */
+
+    /* about part starts */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px !important;
+    }
+    #about .about-img {
+        padding-bottom: 25px !important;
+    }
+    #about .about-img .img-overlay{
+        bottom: 8px;
+        height: 62%;
+    }
+    #about .about-img .img-overlay h4 {
+        font-size: 22px;
+    }
+    #about .about-img .img-overlay h5 {
+        font-size: 20px;
+    }
+    #about .about-img .img-overlay h6 {
+        background: #fff;
+        padding: 6px 43px;
+        top: -117px;
+        left: -61px;
+    }
+    #about .about-img .img-overlay a{
+        font-size: 15px; 
+    }
+    /* about part ends */
+
+    /* product part starts */
+    #product h4 {
+        margin-bottom: 35px !important;
+    }
+    #product h4{
+        font-size: 35px;
+    }
+    #product h4::before,
+    #product h4::after
+    {
+        left:211px;
+    }
+    #product ul {
+        padding-bottom: 25px !important;
+    }
+    #product ul li a {
+        font-size: 14px;
+    }
+    #product ul li a span {
+        margin-right: 8px;
+    }
+    #product h6 {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+    #product h6 span {
+        font-size: 14px;
+    }
+    #product h4{
+        margin-bottom: 40px !important;
+    }
+    #product .product-item img{
+        margin-left:15px;
+    }
+    #product .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 15px;
+    }
+    /* product part ends */
+
+    /* microsoft part starts */
+    #microsoft {
+        margin-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    #microsoft .microsoft-img img {
+        width: 80%;
+    }
+    #microsoft .microsoft-text {
+        margin-top: 310px;
+        margin-left: 4px;
+    }
+    #microsoft .microsoft-text h4 {
+        font-size: 19px;
+    }
+    #microsoft .microsoft-text h2 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #microsoft .microsoft-text h5 {
+        font-size: 19px;
+    }
+    #microsoft .timer-text {
+        padding: 12px;
+        margin-top: 20px;
+        margin-left: 5px !important;
+    }
+    /*  microsoft part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 35px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+       left:233px;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+    }
+    #latestProduct h6 {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #latestProduct h6 span {
+        font-size: 18px;
+        margin-left: 73px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 13px;
+    }
+    #latestProduct .product-item .product-overlay .icon {
+        margin-top: 72px;
+    }
+    /* latest product part ends */
+
+    /* testimonial part starts */
+    #testimonial h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial h4::before,
+    #testimonial h4::after
+    {
+        left:285px;
+    }
+    #test {
+        padding-top: 55px;
+        padding-bottom: 80px !important;
+    }
+    #test .testimonial-item .testimonial-image img {
+        width: 70% !important;
+    }
+    #test .testimonial-item h5 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #test .testimonial-item h6 {
+        font-size: 14px;
+    }
+    #test .testimonial-item p {
+        line-height: 23px;
+        padding-bottom: 10px !important;
+    }
+    #test .prev-arrow{
+        left: 52% !important;
+    }
+    #test .next-arrow {
+        right: 42% !important;
+    }
+    /* testimonial part ends */
+
+    /* blog part starts  */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px !important;
+    }
+    #blog h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #blog h4::before,
+    #blog h4::after
+    {
+        left:300px;
+    }
+    #blog h5 {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+    #blog h6 {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    /* blog part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -6px;
+        margin-right: 10px;
+    }
+    /* footer part ends */
+}
+/*========================
+ medium device css ends
+=========================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 12px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+    
+    /* banner part satrts */
+    #banner .bg1{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .bg2{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .bg3{
+        padding-top: 115px;
+        padding-bottom: 132px !important;
+    }
+    #banner .banner-item .banner-text h5 {
+        font-size: 60px;
+    }
+    #banner .banner-item .banner-text h4 {
+        font-size: 35px;
+    }
+    #banner .banner-item .banner-text p {
+        margin-top: 12px;
+    }
+    #banner .banner-item .banner-text a {
+        margin-top: 40px;
+    }
+    #banner .prev-arrow {
+        bottom: 22px;
+        left: 51%;
+    }
+    #banner .next-arrow {
+        bottom: 22px;
+        right: 44%;
+    }
+    /* banner part ends */
+    
+    /* feedback part starts  */
+    #feedback .feedback-text i {
+        font-size: 30px;
+    }
+    #feedback .feedback-text span {
+        font-size: 23px;
+    }
+    #feedback .feedback-text p {
+        margin-top: 11px;
+        padding-right: 34px;
+        padding-bottom: 15px !important;
+    }
+    /* feedback part ends */
+    
+    /* about part starts */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px !important;
+    }
+    #about .about-img {
+        padding-bottom: 25px !important;
+    }
+    #about .about-img .img-overlay {
+        bottom: 8px;
+        height: 50%;
+    }
+    #about .about-img .img-overlay h4 {
+        font-size: 22px;
+    }
+    #about .about-img .img-overlay h5 {
+        font-size: 20px;
+    }
+    #about .about-img .img-overlay h6 {
+        background: #fff;
+        padding: 6px 50px;
+        top: -198px;
+        left: -61px;
+    }
+    #about .about-img .img-overlay a{
+        font-size: 15px; 
+    }
+    /* about part ends */
+    
+    /* product part starts */
+    #product h4 {
+        margin-bottom: 35px !important;
+    }
+    #product h4{
+        font-size: 35px;
+    }
+    #product h4::before,
+    #product h4::after
+    {
+        left: 332px;
+    }
+    #product ul {
+        padding-bottom: 25px !important;
+    }
+    #product ul li a {
+        font-size: 14px;
+    }
+    #product ul li a span {
+        margin-right: 8px;
+    }
+    #product h6 {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+    #product h6 span {
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    #product h4{
+        margin-bottom: 40px !important;
+    }
+    #product .product-item img {
+        margin-left: 15px;
+        width: 100%;
+    }
+    #product .product-item .product-overlay{
+        height:273px;
+    }
+    #product .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 14px;
+    }
+    /* product part ends */
+    
+    /* microsoft part starts */
+    #microsoft {
+        margin-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    #microsoft .microsoft-img img {
+        width: 47%;
+    }
+    #microsoft .microsoft-text {
+        margin-top: -51px;
+        margin-left: 4px;
+    }
+    #microsoft .microsoft-text h4 {
+        font-size: 19px;
+    }
+    #microsoft .microsoft-text h2 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #microsoft .microsoft-text h5 {
+        font-size: 19px;
+    }
+    #microsoft .timer-text {
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 5px !important;
+    }
+    /*  microsoft part ends */
+    
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 35px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        left:355px;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+        width:100%;
+    }
+    #latestProduct h6 {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    #latestProduct h6 span {
+        font-size: 14px;
+        margin-left: 23px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 13px;
+    }
+    /* latest product part ends */
+    
+    /* testimonial part starts */
+    #testimonial h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial h4::before,
+    #testimonial h4::after
+    {
+        left:407px;
+    }
+    #test {
+        padding-top: 55px;
+        padding-bottom: 80px !important;
+    }
+    #test .testimonial-item .testimonial-image img {
+        width: 55% !important;
+    }
+    #test .testimonial-item h5 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #test .testimonial-item h6 {
+        font-size: 14px;
+    }
+    #test .testimonial-item p {
+        line-height: 23px;
+        padding-bottom: 10px !important;
+    }
+    #test .prev-arrow{
+        left: 52% !important;
+    }
+    #test .next-arrow {
+        right: 44% !important;
+    }
+    /* testimonial part ends */
+    
+    /* blog part starts  */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px !important;
+    }
+    #blog h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #blog h4::before,
+    #blog h4::after
+    {
+       left:420px;
+    }
+    #blog h5 {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+    #blog h6 {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    /* blog part ends */
+    
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 22px;
+        margin-right: 0px;
+    }
+    /* footer part ends */
+}
+/*=====================
+large  device ends
+=======================*/
+
+/*===============================
+extra extra large  device starts
+=================================*/
+@media(min-width:1400px) {
+        /* header part satrts */
+    header{
+        padding-top: 15px;
+        padding-bottom: 15px !important; 
+    }
+    header ul li {
+        padding: 0 25px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    .navbar .cart-info a{
+        margin-right: 15px;
+    }
+    /* navbar part ends */
+    
+    /* banner part satrts */
+    #banner .bg1{
+        padding-top: 130px;
+        padding-bottom: 150px !important;
+    }
+    #banner .bg2{
+        padding-top: 130px;
+        padding-bottom: 150px !important;
+    }
+    #banner .bg3{
+        padding-top: 130px;
+        padding-bottom: 150px !important;
+    }
+    #banner .banner-item .banner-text h5 {
+        font-size: 68px;
+    }
+    #banner .banner-item .banner-text h4 {
+        font-size: 35px;
+    }
+    #banner .banner-item .banner-text p {
+        margin-top: 12px;
+    }
+    #banner .banner-item .banner-text a {
+        margin-top: 40px;
+    }
+    #banner .prev-arrow {
+        bottom: 44px;
+        left: 51%;
+    }
+    #banner .next-arrow {
+        bottom: 44px;
+        right: 46%;
+    }
+    /* banner part ends */
+    
+    /* feedback part starts  */
+    #feedback .feedback-text i {
+        font-size: 30px;
+    }
+    #feedback .feedback-text span {
+        font-size: 23px;
+    }
+    #feedback .feedback-text p {
+        margin-top: 11px;
+        padding-right: 95px;
+        padding-bottom: 15px !important;
+    }
+    /* feedback part ends */
+    
+    /* about part starts */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px !important;
+    }
+    #about .about-img {
+        padding-bottom: 25px !important;
+        width:95%;
+    }
+    #about .about-img .img-overlay {
+        bottom: 6px;
+        height: 42%;
+    }
+    #about .about-img .img-overlay h4 {
+        font-size: 22px;
+    }
+    #about .about-img .img-overlay h5 {
+        font-size: 20px;
+    }
+    #about .about-img .img-overlay h6 {
+        background: #fff;
+        padding: 10px 86px;
+        top: -292px;
+        left: -95px;
+    }
+    #about .about-img .img-overlay a{
+        font-size: 15px; 
+        margin-top: 31px;
+    }
+    /* about part ends */
+    
+    /* product part starts */
+    #product h4 {
+        margin-bottom: 35px !important;
+    }
+    #product h4{
+        font-size: 35px;
+    }
+    #product h4::before,
+    #product h4::after
+    {
+        left: 510px;
+    }
+    #product ul {
+        padding-bottom: 25px !important;
+    }
+    #product ul li a {
+        font-size: 16px;
+    }
+    #product ul li a span {
+        margin-right: 8px;
+    }
+    #product h6 {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    #product h6 span {
+        font-size: 15px;
+        margin-left: 129px;
+    }
+    #product h4{
+        margin-bottom: 40px !important;
+    }
+    #product .product-item img {
+        margin-left: 15px;
+        width: 100%;
+    }
+    #product .product-item .product-overlay {
+        height: 389px;
+    }
+    #product .product-item .product-overlay .icon{
+        margin-top: 64px;
+    }
+    #product .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 14px;
+    }
+    /* product part ends */
+    
+    /* microsoft part starts */
+    #microsoft {
+        margin-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    #microsoft .microsoft-img img {
+        width: 47%;
+    }
+    #microsoft .microsoft-text {
+        margin-top: -51px;
+        margin-left: 4px;
+    }
+    #microsoft .microsoft-text h4 {
+        font-size: 19px;
+    }
+    #microsoft .microsoft-text h2 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #microsoft .microsoft-text p{
+        margin-right: 49px; 
+    }
+    #microsoft .microsoft-text h5 {
+        font-size: 19px;
+    }
+    #microsoft .timer-text {
+        padding: 8px;
+        margin-top: 20px;
+        margin-left: 5px !important;
+    }
+    /*  microsoft part ends */
+    
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 35px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        left: 533px;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+        width:100%;
+    }
+    #latestProduct h6 {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    #latestProduct h6 span {
+        font-size: 14px;
+        margin-left: 105px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 13px;
+    }
+    #latestProduct .product-item .product-overlay .icon{
+        margin-top: 65px;
+    }
+    /* latest product part ends */
+    
+    /* testimonial part starts */
+    #testimonial h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial h4::before,
+    #testimonial h4::after
+    {
+        left: 586px;
+    }
+    #test {
+        padding-top: 55px;
+        padding-bottom: 80px !important;
+    }
+    #test .testimonial-item {
+        margin-right:15px;
+    }
+    #test .testimonial-item .testimonial-image img {
+        width: 55% !important;
+    }
+    #test .testimonial-item h5 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #test .testimonial-item h6 {
+        font-size: 14px;
+    }
+    #test .testimonial-item p {
+        line-height: 23px;
+        padding-bottom: 10px !important;
+    }
+    #test .prev-arrow{
+        left: 52% !important;
+    }
+    #test .next-arrow {
+        right: 44% !important;
+    }
+    /* testimonial part ends */
+    
+    /* blog part starts  */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px !important;
+    }
+    #blog h4 {
+        font-size: 30px;
+        margin-bottom: 40px !important;
+    }
+    #blog p {
+        margin-right: 19px;
+    }
+    #blog h4::before,
+    #blog h4::after
+    {
+        left:601px;
+    }
+    #blog .blog-img img{
+        width:94% !important;
+    }
+    #blog .blog-img .blog-overlay{
+        width:94% !important;
+    }
+    #blog h5 {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+    #blog h6 {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    /* blog part ends */
+    
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main .footer-newsletter form input{
+        width: 245px;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+        margin-left: -136px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 19px;
+        margin-right: 28px;
+    }
+    /* footer part ends */
+}
+/*===============================
+extra extra large  device ends
+=================================*/

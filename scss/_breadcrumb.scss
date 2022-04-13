@@ -1,0 +1,42 @@
+@import 'variable.scss';
+@import 'font.scss';
+@import 'mixin.scss';
+
+#breadcrumb{
+    background:url(../images/breadcrumb.png) no-repeat center / cover;
+    padding-top:75px;
+    padding-bottom:75px !important;
+    position:relative;
+    z-index:1;
+    &::after{
+        content:'';
+        width:100%;
+        height:100%;
+        background:rgba(0, 0, 0,0.7);
+        position: absolute;
+        inset:0;
+        z-index:-1;
+    }
+    .breadcrumb-text{
+        h4{
+            @include ralemed;
+            font-size: 24px;
+            color:#fff;
+        }
+        a{
+            @include openreg;
+            font-size:18px;
+            margin-top:18px;
+        }
+        i{
+            padding:0 3px;
+            color:#fff;
+        }
+        .current-page{
+            color:$brand;
+        }
+    }
+}
+/*======================
+  breadcrumb css ends
+========================*/ 

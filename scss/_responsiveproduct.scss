@@ -1,0 +1,707 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /* header part satrts */
+    header ul li {
+        padding: 0 3px;
+        border-right: 0px solid #dddddd;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right:-10px;
+    }
+    /* navbar part ends */
+
+    /* product part starts */
+    #productDetail {
+        margin-top: 50px;
+    }
+    #productDetail .product-details h4{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    #productDetail .product-details .ratings {
+        font-size: 14px;
+    }
+    #productDetail .product-details p {
+        margin-top: 28px;
+        padding-right: 8px;
+    }
+    #productDetail .product-details .quantity span {
+        font-size: 15px;
+    }
+    #productDetail .product-details .quantity .nice-number input {
+        width: 27px !important;
+    }
+    #productDetail .product-details .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #productDetail .product-details .social-icon a i:hover {
+        transform: scale(1.1);
+    }
+    #productDetail .product-description ul li {
+        margin-left: 10px;
+    }
+    #productDetail .product-description ul li button {
+        font-size: 17px;
+    }
+    #productDetail .product-description p {
+        margin-top: 25px;
+    }
+    #productDetail .product-description p:last-of-type {
+        margin-top: 22px;
+    }
+    /* product part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 50px !important;
+    }
+    #latestProduct h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        display:none;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+    }
+    #latestProduct h6{
+        margin-left:15px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+    }
+    /* latest product part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -6px;
+        margin-right: 55px;
+    }
+    /* footer part ends */
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*=========================
+ small device satrts
+==========================*/
+@media (min-width:576px) and (max-width:767px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 3px;
+        border-right: 0px solid #ddd;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    header .header-right{
+        margin-left:118px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -25px;
+    }
+    /* navbar part ends */
+
+    /* product part starts */
+    #productDetail {
+        margin-top: 60px;
+    }
+    #productDetail .product-details h4 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    #productDetail .product-details .ratings {
+        font-size: 14px;
+    }
+    #productDetail .product-details p {
+        margin-top: 28px;
+        padding-right: 8px;
+    }
+    #productDetail .product-details .quantity span {
+        font-size: 15px;
+    }
+    #productDetail .product-details .quantity .nice-number input {
+        width: 27px !important;
+    }
+    #productDetail .product-details .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #productDetail .product-details .social-icon a i:hover {
+        transform: scale(1.1);
+    }
+    #productDetail .product-description ul li {
+        margin-left: 10px;
+    }
+    #productDetail .product-description ul li button {
+        font-size: 17px;
+    }
+    #productDetail .product-description p {
+        margin-top: 25px;
+    }
+    #productDetail .product-description p:last-of-type {
+        margin-top: 22px;
+    }
+    /* product part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        display:none;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+    }
+    #latestProduct h6{
+        margin-left:15px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+    }
+    /* latest product part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy {
+        padding-top: 17px;
+        padding-bottom: 0px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -102px;
+        margin-right: -295px;
+        width:100% !important;
+    }
+    /* footer part ends */
+}
+/*========================
+ small device css ends
+=========================*/
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 -6px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+
+    /* product part starts */
+    #productDetail {
+        margin-top: 60px;
+    }
+    #productDetail .product-details h4 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    #productDetail .product-details .ratings {
+        font-size: 14px;
+    }
+    #productDetail .product-details p {
+        margin-top: 28px;
+        padding-right: 8px;
+    }
+    #productDetail .product-details .quantity span {
+        font-size: 15px;
+    }
+    #productDetail .product-details .quantity .nice-number input {
+        width: 27px !important;
+    }
+    #productDetail .product-details .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #productDetail .product-details .social-icon a i:hover {
+        transform: scale(1.1);
+    }
+    #productDetail .product-description ul li {
+        margin-left: 10px;
+    }
+    #productDetail .product-description ul li button {
+        font-size: 17px;
+    }
+    #productDetail .product-description p {
+        margin-top: 25px;
+    }
+    #productDetail .product-description p:last-of-type {
+        margin-top: 22px;
+    }
+    /* product part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 60px !important;
+    }
+    #latestProduct h4 {
+        font-size: 35px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+       left:233px;
+    }
+    #latestProduct .product-item img {
+        margin-left: 15px;
+        width: 100%;
+    }
+    #latestProduct h6 {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #latestProduct h6 span {
+        font-size: 18px;
+        margin-left: 73px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+        font-size: 13px;
+    }
+    #latestProduct .product-item .product-overlay .icon {
+        margin-top: 72px;
+    }
+    /* latest product part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 19px;
+        margin-right: 1px;
+    }
+    /* footer part ends */
+}
+/*========================
+ medium device css ends
+=========================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 12px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+
+    /* product part starts */
+    #productDetail {
+        margin-top: 60px;
+    }
+    #productDetail .product-details h4 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    #productDetail .product-details .ratings {
+        font-size: 14px;
+    }
+    #productDetail .product-details p {
+        margin-top: 28px;
+        padding-right: 8px;
+    }
+    #productDetail .product-details .quantity span {
+        font-size: 15px;
+    }
+    #productDetail .product-details .quantity .nice-number input {
+        width: 27px !important;
+    }
+    #productDetail .product-details .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #productDetail .product-details .social-icon a i:hover {
+        transform: scale(1.1);
+    }
+    #productDetail .product-description ul li {
+        margin-left: 10px;
+    }
+    #productDetail .product-description ul li button {
+        font-size: 17px;
+    }
+    #productDetail .product-description p {
+        margin-top: 25px;
+    }
+    #productDetail .product-description p:last-of-type {
+        margin-top: 22px;
+    }
+    /* product part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 22px;
+        margin-right: 0px;
+    }
+    /* footer part ends */
+}
+/*=====================
+large  device ends
+=======================*/
+
+/*===============================
+extra extra large  device starts
+=================================*/
+@media(min-width:1400px) {
+    /* header part satrts */
+    header{
+        padding-top: 15px;
+        padding-bottom: 15px !important; 
+    }
+    header ul li {
+        padding: 0 25px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    .navbar .cart-info a{
+        margin-right: 15px;
+    }
+    /* navbar part ends */
+
+    /* product part starts */
+    #productDetail {
+        margin-top: 50px;
+    }
+    #productDetail .product-details h4 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    #productDetail .product-details .ratings {
+        font-size: 14px;
+    }
+    #productDetail .product-details p {
+        margin-top: 28px;
+        padding-right: 8px;
+    }
+    #productDetail .product-details .quantity span {
+        font-size: 15px;
+    }
+    #productDetail .product-details .quantity .nice-number input {
+        width: 27px !important;
+    }
+    #productDetail .product-details .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #productDetail .product-details .social-icon a i:hover {
+        transform: scale(1.1);
+    }
+    #productDetail .product-description ul li {
+        margin-left: 10px;
+    }
+    #productDetail .product-description ul li button {
+        font-size: 17px;
+    }
+    #productDetail .product-description p {
+        margin-top: 25px;
+    }
+    #productDetail .product-description p:last-of-type {
+        margin-top: 22px;
+    }
+    /* product part ends */
+
+    /*  latest product part starts */
+    #latestProduct {
+        padding-bottom: 50px !important;
+    }
+    #latestProduct h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    #latestProduct h4::before,
+    #latestProduct h4::after
+    {
+        left: 551px;
+    }
+    #latestProduct .product-item img{
+        margin-left:15px;
+    }
+    #latestProduct h6{
+        margin-left:15px;
+    }
+    #latestProduct .ratings {
+        margin-bottom:20px !important;
+        margin-left:15px;
+    }
+    /* latest product part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main .footer-newsletter form input{
+        width: 245px;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+        margin-left: -7px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 19px;
+        margin-right: 28px;
+    }
+    /* footer part ends */
+}
+/*===============================
+extra extra large  device ends
+=================================*/

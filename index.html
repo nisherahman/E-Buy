@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Buy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- =========================
+        page top paart starts
+    ========================== -->
+
+    <!-- header part starts -->
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-6 ms-sm-auto">
+                    <div class="header-left text-sm-center">
+                        <ul class="ps-0 mb-0 d-lg-flex d-md-flex">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 eng
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-uppercase p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                usd<span>&dollar;</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-capitalize p-0">toll free: +01557675249</a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+
+                <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-6 ms-lg-auto ms-sm-auto">
+                    <div class="header-right text-sm-center">
+                        <ul class="ps-0 mb-0 d-lg-flex justify-content-end d-md-flex">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-capitalize p-0"><i class="fas fa-heart"></i>wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-capitalize p-0"><i class="fas fa-user"></i>my account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-capitalize p-0">login <span>/</span> register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- header part ends -->
+
+    <!-- navbar part starts -->
+    <nav class="navbar navbar-expand-lg navbar-light py-0">
+        <div class="container">
+          <a class="navbar-brand py-0" href="index.html">
+              <img src="images/logo.png" alt="logo.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-capitalize p-0 mb-0" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize p-0 mb-0" href="about.html">men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize p-0 mb-0" href="product.html">women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize p-0 mb-0" href="shop.html">accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize p-0 mb-0" href="checkout.html">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize p-0 mb-0" href="contact.html">contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control d-none" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <div class="cart-info">
+                <a class="btn text-capitalize" type="button" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>2</span>
+                    items
+                </a>
+            </div>
+
+          </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        </div>
+    </div>
+    <!-- navbar part ends -->
+
+    <!-- banner part starts -->
+    <section id="banner">
+      <div class="col-xxl-12 col-lg-12 col-sm-12">
+        <div class="banner-slider">
+
+          <div class="banner-item bg1">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-5 col-lg-5 col-sm-8">
+                  <div class="banner-text">
+                    <h5 class="mb-0">2017</h5>
+                    <h4 class="text-uppercase text-white mb-0">trendy design</h4>
+                    <p class="text-white mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">view more</a>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">purchase</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-item bg2">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-5 col-lg-5 col-sm-8">
+                  <div class="banner-text">
+                    <h5 class="mb-0">2017</h5>
+                    <h4 class="text-uppercase text-white mb-0">trendy design</h4>
+                    <p class="text-white mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">view more</a>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">purchase</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-item bg3">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-5 col-lg-5 col-sm-8">
+                  <div class="banner-text">
+                    <h5 class="mb-0">2017</h5>
+                    <h4 class="text-uppercase text-white mb-0">trendy design</h4>
+                    <p class="text-white mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">view more</a>
+                    <a class="btn rounded-0 btn-outline-light text-uppercase" href="#" role="button">purchase</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-item bg1">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-5 col-lg-5 col-sm-8">
+                  <div class="banner-text">
+                    <h5 class="mb-0">2017</h5>
+                    <h4 class="text-uppercase text-white mb-0">trendy design</h4>
+                    <p class="text-white mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <a class="btn rounded-0 btn-outline-light" href="#" role="button">view more</a>
+                    <a class="btn rounded-0 btn-outline-light" href="#" role="button">purchase</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+    </section>
+    <!-- banner part ends -->
+
+    <!-- feedback part satrts -->
+    <section id="feedback">
+      <div class="container">
+        <div class="row">
+
+        <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="feedback-text">
+            <i class="fa-solid fa-truck"></i><span class="text-capitalize mb-0">free shipping</span>
+            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="feedback-text">
+            <i class="fa-solid fa-futbol"></i><span class="text-capitalize mb-0">24/7 support</span>
+            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="feedback-text">
+            <i class="fa-solid fa-money-bill-1"></i><span class="text-capitalize mb-0">cashback</span>
+            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- feedback part ends -->
+
+    <!-- about part starts -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="about-img">
+              <img src="images/about1.png" alt="about1.png" class="w-100"class="w-100">
+              <div class="img-overlay text-white text-center">
+                <h4 class="text-capitalize mb-0">new</h4>
+                <h5 class="text-capitalize mb-0">jeans shirt</h5>
+                <h6 class="text-uppercase mb-0">new</h6>
+                <a class="btn btn-outline-light text-capitalize mb-0 rounded-o" href="shop.html">shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="about-img">
+              <img src="images/about2.png" alt="about2.png" class="w-100"class="w-100">
+              <div class="img-overlay text-white text-center">
+                <h4 class="text-capitalize mb-0">2017</h4>
+                <h5 class="text-capitalize mb-0">women's glass</h5>
+                <h6 class="text-uppercase mb-0">new</h6>
+                <a class="btn btn-outline-light text-capitalize mb-0 rounded-o" href="shop.html">shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="about-img">
+              <img src="images/about3.png" alt="about3.png" class="w-100">
+              <div class="img-overlay text-white text-center">
+                <h4 class="text-capitalize mb-0">best</h4>
+                <h5 class="text-capitalize mb-0">men's shirt</h5>
+                <h6 class="text-uppercase mb-0">new</h6>
+                <a class="btn btn-outline-light text-capitalize mb-0 rounded-o" href="shop.html">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- about part ends -->
+
+    <!-- product part starts -->
+    <section id="product">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-capitalize text-center mb-0">featured products</h4>
+
+          <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-capitalize mb-0 active"  data-filter="all">all</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize mb-0"  data-filter=".men"><span>|</span>men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize mb-0" data-filter=".women"><span>|</span>women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize mb-0"  data-filter=".child"><span>|</span>children</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize mb-0" data-filter=".access"><span>|</span>accessories</a>
+            </ul>
+          </div>
+
+          <div class="row product-main">
+
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="product-item mix child men">
+                <img src="images/product1.png" alt="product1">
+                <div class="product-overlay text-white">
+                  <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <h6 class="text-capitalize mb-0">woolen t-Shirt<span>$99.00</span></h6>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+              </div>
+
+            </div>
+  
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="product-item mix men access women">
+                <img src="images/product2.png" alt="product2">
+                <div class="product-overlay text-white">
+                  <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <h6 class="text-capitalize mb-0">skill skirt<span>$99.00</span></h6>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="product-item mix women child">
+                <img src="images/product3.png" alt="product3" >
+                <div class="product-overlay text-white">
+                  <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <h6 class="text-capitalize mb-0">skill skirt<span>$99.00</span></h6>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="product-item mix access men child">
+                <img src="images/product4.png" alt="product4" >
+                <div class="product-overlay text-white">
+                  <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <h6 class="text-capitalize mb-0">Shirt for women<span>$99.00</span></h6>
+                <div class="ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- product part ends -->
+
+    <!-- microsoft part starts -->
+    <section id="microsoft">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="microsoft-img">
+              <img src="images/microsoft.png" alt="microsoft.png">
+            </div>
+          </div>
+
+          <div class="col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="microsoft-text">
+              <h4 class="text-uppercase mb-0">new product</h4>
+              <h2 class="text-uppercase mb-0">microsoft surface pro</h2>
+              <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It hasived not only five centuries, with the release of Letraset sheets.</p>
+              <h5 class="text-uppercase mb-0">launch in</h5>
+            </div>
+
+            <div class="row">
+
+              <div class="col-xxl-2 col-lg-3 col-md-2 col-sm-2 col-6 text-center">
+                <div class="timer-text">
+                  364
+                  <h6 class="text-capitalize mb-0">days</h6>
+                </div>
+              </div>
+
+              <div class="col-xxl-2 col-lg-3 col-md-2 col-sm-2 col-6 text-center">
+                <div class="timer-text">
+                  23
+                  <h6 class="text-capitalize mb-0">hours</h6>
+                </div>
+              </div>
+
+              <div class="col-xxl-2 col-lg-3 col-md-2 col-sm-2 col-6 text-center">
+                <div class="timer-text">
+                  59
+                  <h6 class="text-capitalize mb-0">mint</h6>
+                </div>
+              </div>
+
+              <div class="col-xxl-2 col-lg-3 col-md-2 col-sm-2 col-6 text-center">
+                <div class="timer-text">
+                  59
+                  <h6 class="text-capitalize mb-0">sec</h6>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- microsoft part ends -->
+
+    <!-- latest product part starts -->
+    <section id="latestProduct">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-capitalize text-center mb-0">latest products</h4>
+
+          <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="product-item mix child men">
+              <img src="images/phone1.png" alt="phone1.png">
+              <div class="product-overlay text-white">
+                <div class="icon">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-capitalize mb-0">samsung-GTS<span>$99.00</span></h6>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="product-item mix men access women">
+              <img src="images/phone2.png" alt="phone2">
+              <div class="product-overlay text-white">
+                <div class="icon">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-capitalize mb-0">samsung-Notebook<span>$99.00</span></h6>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="product-item mix women child">
+              <img src="images/phone3.png" alt="phone3.png" >
+              <div class="product-overlay text-white">
+                <div class="icon">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-capitalize mb-0">iphone-6splus<span>$99.00</span></h6>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="product-item mix access men child">
+              <img src="images/phone4.png" alt="phone4" >
+              <div class="product-overlay text-white">
+                <div class="icon">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-capitalize mb-0">HTC-Bluray 35<span>$99.00</span></h6>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- latest product part ends -->
+
+    <!-- testimonial part starts -->
+    <section id="testimonial">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-capitalize text-center mb-0">testimonial</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="test">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="testimonial-slider">
+
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-xxl-4 col-lg-5 col-md-4 col-sm-4">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial1.png" alt="testimonial1.png" class="w-100">
+                    </div>
+                  </div>
+                  <div class="col-xxl-8 col-lg-7 col-md-8 col-sm-8">
+                   <div class="testimonial-text text-white">
+                    <h5 class="text-uppercase mb-0">ASH shakir</h5>
+                    <h6 class="text-capitalize mb-0">sketch artist</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-xxl-4 col-lg-5 col-md-4 col-sm-4">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial2.png" alt="testimonial2.png" class="w-100">
+                    </div>
+                  </div>
+                  <div class="col-xxl-8 col-lg-7 col-md-8 col-sm-8">
+                   <div class="testimonial-text text-white">
+                    <h5 class="text-uppercase mb-0">ASH shakir</h5>
+                    <h6 class="text-capitalize mb-0">sketch artist</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-xxl-4 col-lg-5 col-md-4 col-sm-4">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial1.png" alt="testimonial1.png" class="w-100">
+                    </div>
+                  </div>
+                  <div class="col-xxl-8 col-lg-7 col-md-8 col-sm-8">
+                   <div class="testimonial-text text-white">
+                    <h5 class="text-uppercase mb-0">ASH shakir</h5>
+                    <h6 class="text-capitalize mb-0">sketch artist</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- testimonial part ends -->
+
+    <!-- blog part starts -->
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-capitalize text-center mb-0">our blog</h4>
+
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img src="images/blog1.png" alt="blog1.png" class="w-100">
+                <div class="blog-overlay d-flex justify-content-center align-items-center">
+                  <div class="links">
+                    <a href="images/blog1.png" class="venobox" data-gall="gallery01"><i class="fas fa-chain"></i></a>
+                  </div>
+                </div>
+              </div>
+              <h5 class="mb-0">Best E-commerce I’d shopping yet</h5>
+              <p class="mb-0">Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              <h6 class="text-uppercase mb-0">read more</h6>
+            </div>
+          </div>
+        
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img src="images/blog2.png" alt="blog2.png" class="w-100">
+                <div class="blog-overlay d-flex justify-content-center align-items-center">
+                  <div class="links">
+                    <a href="images/blog2.png" class="venobox" data-gall="gallery01"><i class="fas fa-chain"></i></a>
+                  </div>
+                </div>
+              </div>
+              <h5 class="mb-0">I’m satisfy with their services</h5>
+              <p class="mb-0">Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              <h6 class="text-uppercase mb-0">read more</h6>
+            </div>
+          </div>
+
+          <div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img src="images/blog3.png" alt="blog3.png" class="w-100">
+                <div class="blog-overlay d-flex justify-content-center align-items-center">
+                  <div class="links">
+                    <a href="images/blog3.png" class="venobox" data-gall="gallery01"><i class="fas fa-chain"></i></a>
+                  </div>
+                </div>
+              </div>
+              <h5 class="mb-0">I’ll never forget their hospitality</h5>
+              <p class="mb-0">Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              <h6 class="text-uppercase mb-0">read more</h6>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- blog part ends -->
+
+    <!-- =========================
+        page top paart ends
+    ========================== -->
+
+
+    <!-- =========================
+        page bottom paart starts
+    ========================== -->
+
+    <!-- footer part starts -->
+    <footer>
+      <section class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-3 col-lg-3 col-sm-6">
+              <div class="footer-item footer-logo">
+                <a href="index.html">
+                  <img src="images/footer-logo.png" alt="footer-logo.png">
+                </a>
+                <ul class="ps-0 mb-0">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</li>
+                  <li>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-3 col-sm-6">
+              <div class="footer-item footer-contact">
+                <h5 class="mb-0 text-uppercase">contact us</h5>
+                <ul class="ps-0 mb-0">
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <a href="#">1234, Parkstreet Avenue, NewYork</a>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-phone"></i></span>
+                    <a href="#">+123456789</a>,<a href="#">+1678456789</a>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-envelope"></i></span>
+                    <a href="#">info@e-buy.com</a>,<a href="#">e-buy@info.com</a>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-globe-americas"></i></span>
+                    <a href="#">www.e-buy.com</a>,<a href="#">www.info-buy.com</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-sm-6">
+              <div class="footer-item important-links">
+                <h5 class="mb-0 text-uppercase">my account</h5>
+                <ul class="ps-0 mb-0">
+                  <li>
+                    <a href="#" class="text-capitalize">my account</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-capitalize">wishlist</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-capitalize">shopping cart</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-capitalize">compare</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-capitalize">checkout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-lg-4 col-sm-6">
+              <div class="footer-item footer-newsletter">
+                <h5 class="mb-0 text-uppercase">sign up for newsletter</h5>
+                <form class="d-flex">
+                  <input class="form-control rounded-0 bg-transparent text-capitalize" type="search" placeholder="your e-mail" aria-label="Search">
+                  <button class="btn btn-danger rounded-0 text-uppercase" type="submit">submit</button>
+                </form>
+                <h5 class="mb-0 text-uppercase">follow me on</h5>
+                <div class="social-icon">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-copy">
+        <div class="container">
+          <div class="row"> 
+            <div class="col-xxl-4 col-lg-4 col-sm-12">
+              <div class="footer-text text-sm-center">
+                <p>Copyright &copy; 2018. All right reserved by<a href="#" class="mb-0 text-uppercase">e-buy</a></p>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-3 col-sm-12 ms-lg-auto">
+              <div class="copy-img text-end text-sm-center">
+                <img src="images/copy-img.png" alt="copy-img.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+    <!-- footer part ends -->
+
+     
+    <!-- back to top part starts -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--  back to top part ends -->
+
+
+    <!-- =========================
+        page  bottom paart ends
+    ========================== -->
+
+
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.nice-number.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>

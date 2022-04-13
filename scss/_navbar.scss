@@ -1,0 +1,100 @@
+@import 'variable.scss';
+@import 'font.scss';
+@import 'mixin.scss';
+
+
+.navbar{
+    z-index:99999;
+    width:100%;
+    .nav-fix{
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 999999;
+        background:#dc965a;
+        animation: navfix 1s linear;
+        -webkit-animation: navfix 1s linear;
+    }
+    @keyframes navfix{
+        0%{
+            top: -100px;
+        }
+        100%{
+            top:0px;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                line-height:110px;
+                @include ralemed;
+                font-size:16px;
+                color:$dark;
+                padding:0 10px !important;
+                position: relative;
+                @include trans(0.4s);
+                &::before{
+                    content:'';
+                    width:0px;
+                    height:1px;
+                    background:$brand;
+                    position:absolute;
+                    left:10px;
+                    bottom:40px;
+                    @include trans(0.4s);
+                }
+                &::after{
+                    content:'';
+                    width:0px;
+                    height:1px;
+                    background:$brand;
+                    position:absolute;
+                    left:10px;
+                    bottom:37px;
+                    @include trans(0.4s);
+                }
+                &:hover{
+                    color:$brand;
+                    &::before{
+                        width:23px;
+                    }
+                    &::after{
+                        width:11px;
+                    }
+               
+                }
+            }
+            .active{
+                color:$brand;
+                &::before{
+                  width:23px;
+                }
+                &::after{
+                    width:11px;
+                }
+            }
+        }
+    }
+    form{
+        button{
+            i{
+                font-size:16px;
+                color:$hbg;
+            }
+        }
+    }
+    .cart-info{
+        a{
+            color:$brand;
+            @include ralemed;
+            font-size:16px;
+            i{
+                margin-right:3px;
+            }
+        }
+    }
+}
+
+/*======================
+  navbar css ends
+========================*/ 

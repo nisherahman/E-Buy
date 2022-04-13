@@ -1,0 +1,116 @@
+@import 'variable.scss';
+@import 'font.scss';
+@import 'mixin.scss';
+
+#testimonial{
+    h4{
+        @include ralemed;
+        font-size:40px;
+        color:$dark;
+        margin-bottom:60px !important;
+        position: relative;
+        &::after{
+            content: '';
+            width: 172px;
+            height: 1px;
+            background: #de4644;
+            position: absolute;
+            left: 474px;
+            bottom: -9px;
+        }
+        &::before{
+            content:'';
+            width:86px;
+            height:1px;
+            background:$brand;
+            position: absolute;
+            left: 474px;
+            bottom:-14px;
+        }
+    }
+}
+#test{
+    background:url(../images/testimonial-bg.png) no-repeat center / cover ;
+    padding-top:60px;
+    padding-bottom:60px !important;
+    position: relative;
+    z-index:1;
+    &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: $over80;
+        position: absolute;
+        left:0px;
+        bottom:0px;
+        z-index:-1;
+    }
+    .testimonial-item{
+        position: relative;
+        .testimonial-image{
+            img{
+                width:60% !important;
+            }
+        }
+        h5{
+            @include ralemed;
+            font-size:20px;
+        }
+        h6{
+            @include ralemed;
+            font-size:16px;
+            margin-top:5px;
+            margin-bottom:5px !important;
+        }
+        p{
+            @include ralemed;
+            font-size:14px;
+            line-height:24px;
+        }
+    }
+    .prev-arrow{
+        width:30px;
+        height:30px;
+        border:1px solid #fff;
+        text-align:center;
+        line-height:30px;
+        margin-left: -30px;
+        color:#fff;
+        font-size:20px;
+        cursor:pointer;
+        position: absolute;
+        bottom:-45px;
+        left:50%;
+        transform: translate(-50%,-50%);
+        z-index:99999;
+        @include trans(0.4s);
+        &:hover{
+            background:$brand;
+            color:#fff;
+        }
+    }
+    .next-arrow{
+        width:30px;
+        height:30px;
+        border:1px solid #fff;
+        text-align:center;
+        line-height:30px;
+        margin-left: -30px;
+        color:#fff;
+        font-size:20px;
+        cursor:pointer;
+        position: absolute;
+        bottom:-45px;
+        right:45% !important;
+        transform: translate(-50%,-50%);
+        z-index:99999;
+        @include trans(0.4s);
+        &:hover{
+            background:$brand;
+            color:#fff;
+        }
+    }
+}
+/*======================
+testimonial css ends
+========================*/ 

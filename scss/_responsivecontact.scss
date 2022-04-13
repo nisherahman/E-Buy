@@ -1,0 +1,526 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /* header part satrts */
+    header ul li {
+        padding: 0 3px;
+        border-right: 0px solid #dddddd;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right:-10px;
+    }
+    /* navbar part ends */
+
+    /* contact form part starts */
+    #contactForm {
+        padding-top: 40px;
+        padding-bottom: 30px !important;
+    }
+    #contactForm .contact-form h5 {
+        font-size: 17px;
+    }
+    #contactForm .contact-form form input {
+        font-size: 13px;
+    }
+    #contactForm .contact-details h5 {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    /* contact form part ends */
+
+    /* contact map part starts */
+    #contactMap {
+        margin-bottom: 50px !important;
+    }
+    /* contact map part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: -6px;
+        margin-right: 55px;
+    }
+    /* footer part ends */
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*=========================
+ small device satrts
+==========================*/
+@media (min-width:576px) and (max-width:767px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 3px;
+        border-right: 0px solid #ddd;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    header .header-right{
+        margin-left:118px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img{
+        padding-top:20px;
+        padding-bottom:20px !important;
+        width:75%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -25px;
+    }
+    /* navbar part ends */
+
+    /* contact form part starts */
+    #contactForm {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #contactForm .contact-details h5 {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    #contactForm .contact-form h5 {
+        font-size: 17px;
+    }
+    #contactForm .contact-form form input {
+        font-size: 13px;
+    }
+    #contactForm .contact-details ul li span i {
+        width: 12px;
+    }
+    /* contact form part ends */
+
+    /* contact map part starts */
+    #contactMap {
+        margin-bottom: 50px !important;
+    }
+    /* contact map part ends */
+    
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy {
+        padding-top: 17px;
+        padding-bottom: 0px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 17px;
+        margin-right: -30px !important;
+        width: 100%;
+    }
+    /* footer part ends */
+}
+/*========================
+ small device css ends
+=========================*/
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 -6px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+
+    /* contact form part starts */
+    #contactForm {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #contactForm .contact-details h5 {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    #contactForm .contact-form h5 {
+        font-size: 17px;
+    }
+    #contactForm .contact-form form input {
+        font-size: 13px;
+    }
+    #contactForm .contact-details ul li span i {
+        width: 12px;
+    }
+    /* contact form part ends */
+
+    /* contact map part starts */
+    #contactMap {
+        margin-bottom: 50px !important;
+    }
+    /* contact map part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 19px;
+        margin-right: 1px;
+    }
+    /* footer part ends */
+}
+/*========================
+ medium device css ends
+=========================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /* header part satrts */
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px !important; 
+    }
+    header ul li {
+        padding: 0 12px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    /* navbar part ends */
+
+    /* breadcrumb part satrts */
+    #breadcrumb .breadcrumb-text h4 {
+        font-size: 21px;
+    }
+    #breadcrumb .breadcrumb-text a {
+        font-size: 14px;
+    }
+    /* breadcrumb part ends */
+
+    /* contact form part starts */
+    #contactForm {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #contactForm .contact-details h5 {
+        font-size: 19px;
+        margin-top: 0px;
+    }
+    #contactForm .contact-form h5 {
+        font-size: 19px;
+    }
+    #contactForm .contact-form form input {
+        font-size: 14px;
+    }
+    #contactForm .contact-details ul li span i {
+        width: 32px;
+    }
+    /* contact form part ends */
+
+    /* contact map part starts */
+    #contactMap {
+        margin-bottom: 50px !important;
+    }
+    /* contact map part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 22px;
+        margin-right: 0px;
+    }
+    /* footer part ends */
+}
+/*=====================
+large  device ends
+=======================*/
+
+/*===============================
+extra extra large  device starts
+=================================*/
+@media(min-width:1400px) {
+    /* header part satrts */
+    header{
+        padding-top: 15px;
+        padding-bottom: 15px !important; 
+    }
+    header ul li {
+        padding: 0 25px;
+    }
+    header ul li a{
+        line-height: 37px;
+    }
+    /* header part ends */
+    
+    /* navbar part starts */
+    .navbar-light .navbar-brand img {
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #222222;
+        border-color: #de4644;
+        margin-right: -27px;
+    }
+    .navbar .cart-info a{
+        margin-right: 15px;
+    }
+    /* navbar part ends */
+
+      /* breadcrumb part satrts */
+      #breadcrumb .breadcrumb-text h4 {
+        font-size: 21px;
+    }
+    #breadcrumb .breadcrumb-text a {
+        font-size: 14px;
+    }
+    /* breadcrumb part ends */
+
+    /* contact form part starts */
+    #contactForm {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #contactForm .contact-details h5 {
+        font-size: 19px;
+        margin-top: 0px;
+    }
+    #contactForm .contact-details p {
+        padding-right: 155px;
+    }
+    #contactForm .contact-form h5 {
+        font-size: 19px;
+    }
+    #contactForm .contact-form form input {
+        font-size: 14px;
+    }
+    #contactForm .contact-details ul li span i {
+        width: 32px;
+    }
+    /* contact form part ends */
+
+    /* contact map part starts */
+    #contactMap {
+        margin-bottom: 50px !important;
+    }
+    /* contact map part ends */
+
+    /* footer part starts */
+    footer .footer-main .footer-logo img {
+        padding-top: 40px;
+        padding-bottom: 20px !important;
+    }
+    footer .footer-main .important-links ul {
+        margin-top: 30px;
+    }
+    footer .footer-main .footer-logo ul li:first-child {
+        margin-bottom: 20px !important;
+    }
+    footer .footer-main .footer-contact ul li {
+        margin-bottom: 18px !important;
+    }
+    footer .footer-main .footer-newsletter form {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+    }
+    footer .footer-main .footer-newsletter form input{
+        width: 245px;
+    }
+    footer .footer-main h5 {
+        padding-top: 35px;
+    }
+    footer .footer-main .footer-newsletter .social-icon a {
+        margin-right: 7px;
+    }
+    footer .footer-main .footer-newsletter .social-icon {
+        margin-top: 25px;
+    }
+    footer .footer-copy{
+        padding-top: 10px;
+        padding-bottom: 15px !important;
+    }
+    footer .footer-copy .footer-text p {
+        font-size: 13px;
+        margin-left: -7px;
+    }
+    footer .footer-copy .copy-img img {
+        margin-top: 19px;
+        margin-right: 28px;
+    }
+    /* footer part ends */
+}
+/*===============================
+extra extra large  device ends
+=================================*/

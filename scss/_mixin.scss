@@ -1,0 +1,32 @@
+@mixin trans($time){
+    transition:all linear $time;
+    -ms-transition:all linear $time;
+    -moz-transition:all linear $time;
+    -o-transition:all linear $time;
+    -webkit-transition:all linear $time;
+}
+
+@mixin nicenumber{
+    .nice-number{
+        input{
+            height: 36px;
+            width:40px !important;
+            border:1px solid $brand;
+            @include ralemed;
+            font-size:20px;
+            color:#444444;
+        }
+        button{
+            width:20px;
+            height: 38px !important;
+            border:1px solid $brand;
+            background:transparent;
+            &:hover{
+                background:$brand;
+                color:#fff;
+            }
+
+        }
+    }
+
+}
