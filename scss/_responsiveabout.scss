@@ -84,6 +84,15 @@ extra small device satrts
     }
     /*  design part ends */
 
+    /*  brand part starts */
+    #brand {
+        padding-bottom: 50px !important;
+    }
+    #brand .brand-item {
+        margin-left: 49px !important;
+    }
+    /*  brand part ends */
+
     /* footer part starts */
     footer .footer-main .footer-logo img {
         padding-top: 40px;
@@ -126,6 +135,10 @@ extra small device satrts
 }
 /*=========================
 extra small device ends
+==========================*/
+
+/*=========================
+ small device satrts
 ==========================*/
 @media (min-width:576px) and (max-width:767px){
     /* header part satrts */
@@ -443,6 +456,8 @@ large  device css starts
         font-size: 18px;
     }
     /* breadcrumb part ends */
+
+    /* about  part starts */
     #about {
         padding-top: 60px;
         padding-bottom: 7px !important;

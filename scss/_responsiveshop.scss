@@ -37,6 +37,15 @@ extra small device satrts
     }
     /* cartinfo part ends */
 
+    /*  brand part starts */
+    #brand {
+        padding-bottom: 50px !important;
+    }
+    #brand .brand-item {
+        margin-left: 49px !important;
+    }
+    /*  brand part ends */
+
     /* footer part starts */
     footer .footer-main .footer-logo img {
         padding-top: 40px;
